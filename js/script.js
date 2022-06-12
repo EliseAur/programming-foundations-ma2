@@ -1,5 +1,6 @@
 //Question 1
-//Loop through the array below and console log each type property if the age is at least 4.
+//Loop through the array below and console log each type property
+//if the age is at least 4.
 var pets = [
     {
         type: "cat",
@@ -42,3 +43,19 @@ function isLoggedIn(loggedIn) {
 
 var input = isLoggedIn(true);
 console.log(input);
+
+//Question 3
+//Write code that does the following:
+//When the button in the HTML is clicked,
+//change the colour of the h2 element to “blue” and
+//change it to read “Updated subheading”.
+
+var buttonChange = document.querySelector("button");
+var headingTwo = document.querySelector("h2");
+
+function changeHeadingTwo() {
+    headingTwo.innerHTML = "Updated subheading";
+    headingTwo.style.color = "blue";
+}
+
+buttonChange.onclick = changeHeadingTwo;
