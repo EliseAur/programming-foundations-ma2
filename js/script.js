@@ -29,7 +29,6 @@ for (var i = 0; i < pets.length; i++) {
 }
 
 //Question 2
-// it is a boolean value, log the value.
 
 function isLoggedIn(loggedIn) {
     typeOfValue = typeof loggedIn;
